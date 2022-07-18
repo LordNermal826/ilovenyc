@@ -12,8 +12,8 @@ public class ModItems {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Ilovenyc.MOD_ID);
 
-    public static final RegistryObject<Item> CHOPPED_CHEESE = ITEMS.register("chopped_cheese",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
+    public static final RegistryObject<Item> CHOPPED_CHEESE = ITEMS.register("chopped_cheese", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.CHOPPED_CHEESE)));
+    public static final RegistryObject<Item> AMERICAN_CHEESE = ITEMS.register("american_cheese", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).food(ModFoods.AMERICAN_CHEESE)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
