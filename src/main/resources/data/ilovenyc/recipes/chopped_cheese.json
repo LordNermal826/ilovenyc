@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LBT",
+    "ECE",
+    " B "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:beef"
+    },
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "L": {
+      "item": "ilovenyc:lettuce"
+    },
+    "T": {
+      "item": "ilovenyc:tomato"
+    },
+    "C": {
+      "item": "ilovenyc:american_cheese"
+    }
+  },
+  "result": {
+    "item": "ilovenyc:chopped_cheese"
+  }
+}
